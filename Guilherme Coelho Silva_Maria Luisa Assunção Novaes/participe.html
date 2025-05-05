@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participe - Médicos Sem Fronteiras</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="imagens/logo.png">
+</head>
+<body>
+    <header class="header">
+        <img src="imagens/logo-nome2.png" alt="Logotipo MSF" class="logo">
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="quem-somos.html">Quem Somos</a>
+            <a href="atividades.html">Atividades</a>
+            <a href="participe.html">Participe</a>
+            <a href="sobre.html">Sobre o Projeto</a>
+        </nav>
+    </header>
+
+    <section class="secao">
+        <div class="caixa-transparente">
+            <h2>Como Participar</h2>
+            <p>Você pode ajudar a Médicos Sem Fronteiras de diversas formas. Aceitamos doações em dinheiro, materiais e também contamos com o trabalho de voluntários em áreas da saúde, logística, comunicação, entre outras.</p>
+            <p>Seu apoio é essencial para que possamos continuar salvando vidas em regiões de conflito, desastres e epidemias. Junte-se a nós!</p>
+            <br>
+            <h3>Manifeste seu Interesse</h3>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone"><br><br>
+
+                <label for="tipo">Tipo de ajuda:</label><br>
+                <select id="tipo" name="tipo" required>
+                    <option value="">Selecione...</option>
+                    <option value="doacao">Doação</option>
+                    <option value="voluntariado">Voluntariado</option>
+                    <option value="ambos">Ambos</option>
+                </select><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+
+                <button type="submit" class="botao-principal">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Médicos Sem Fronteiras. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
